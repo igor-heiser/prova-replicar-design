@@ -1,0 +1,1125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+    --primary-color: #6F63D9;
+    --secondary-color: #EF634D;
+    --tertiary-color: #F6F1ED;
+    --quaternary-color: #FFFFFF;
+    --quinary-color: #F49E44;
+    --senary-color: rgba(216, 216, 216, 0.3158);
+
+    --primary-text-color: #FFFFFF;
+    --secundary-text-color: #333333;
+    --terciary-text-color: rgba(51, 51, 51, 0.50);
+    --quaternary-text-color: #EF634D;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+button{
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+li{
+    font-size: 1rem;
+    list-style: none;
+}
+
+/* ====================
+HEADER
+==================== */
+
+header{
+    padding-left: 0.875rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0.9375rem;
+}
+
+#logo{
+    color: var(--primary-text-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header-pages{
+    display: none;
+}
+
+.social-media{
+    display: none;
+}
+
+/* ==========
+HERO
+========== */
+
+.hero{
+    margin-top: 3.625rem;
+    margin-bottom: 6.875rem;
+    padding-right: 0.9375rem;
+}
+
+.hero p{
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.hero h1{
+    color: var(--primary-text-color);
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-top: 1.1875rem;
+    margin-bottom: 2.1875rem;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1.875rem;
+    align-items: center;
+}
+
+#button-contact-us{
+    padding: 0.8125rem 2.28125rem 0.875rem 2.28125rem;
+    color: var(--secundary-text-color);
+    font-weight: bold;
+    background-color: var(--quinary-color);
+}
+
+.hero-buttons a{
+    color: var(--primary-text-color);
+    font-size: 1.25rem;
+}
+
+.hero img{
+    margin-top: 2.75rem;
+    width: 100%;
+    filter: drop-shadow(0 10px 21px rgba(0, 0, 0, 0.20));
+}
+
+/* ====================
+MAIN
+==================== */
+
+/* ==========
+FEATURES
+========== */
+
+.features-background{
+    background-color: var(--secondary-color);
+    padding: 3rem 0.9375rem 6rem 0.875rem;
+}
+
+.features{
+    padding: 2rem 1.875rem 1.3125rem 1.8125rem;
+    background-color: var(--quaternary-color);
+    border-radius: 1.5rem;
+}
+
+.features img{
+    width: 100%;
+    margin-bottom: 2.625rem;
+}
+
+.features-content p{
+    color: var(--quaternary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.features-content h2{
+    color: var(--secundary-text-color);
+    font-size: 2.5rem;
+    margin-bottom: 2.375rem;
+    margin-right: 4rem;
+}
+
+.features-branding{
+    display: flex;
+    gap: 1.875rem;
+}
+
+.features-branding img{
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.features-branding-content h3{
+    color: var(--secundary-text-color);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1875rem;
+}
+
+.features-branding-content p{
+    color: var(--terciary-text-color);
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.features-marketing{
+    display: flex;
+    gap: 1.875rem;
+}
+
+.features-marketing img{
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.features-marketing-content h3{
+    color: var(--secundary-text-color);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1875rem;
+}
+
+.features-marketing-content p{
+    color: var(--terciary-text-color);
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.features-SEO-solution{
+    display: flex;
+    gap: 1.875rem;
+}
+
+.features-SEO-solution img{
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.features-SEO-solution-content h3{
+    color: var(--secundary-text-color);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1875rem;
+}
+
+.features-SEO-solution-content p{
+    color: var(--terciary-text-color);
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* ==========
+JUST DO IT
+========== */
+
+.just-do-it{
+    padding: 5.625rem 1.5rem 7rem 1.6875rem;
+    text-align: center;
+}
+
+.just-do-it p{
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.just-do-it h2{
+    color: var(--primary-text-color);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: 1.1875rem;
+    margin-bottom: 2.1875rem;
+}
+
+/* ==========
+ABOUT
+========== */
+
+.about{
+    background-color: var(--tertiary-color);
+    padding: 4.625rem 0.9375rem 5rem 0.875rem;
+}
+
+.about span{
+    color: var(--quaternary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.about-start h2{
+    color: var(--secundary-text-color);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 1rem 5rem 1.375rem 0;
+}
+
+#about-button-view-all{
+    color: var(--quinary-color);
+    font-weight: bold;
+    background-color: var(--senary-color);
+    padding: 0.8125rem 3.09375rem 0.875rem;
+    margin-bottom: 3rem;
+}
+
+.about-card-branding{
+    padding: 2rem 1.875rem 3rem;
+    background-color: var(--quaternary-color);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 1.5rem;
+}
+
+.about-card-branding img{
+    width: 100%;
+    margin-bottom: 2.25rem;
+}
+
+.about-card-branding-content span{
+    color: var(--quaternary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.about-card-branding-content h3{
+    color: var(--secundary-text-color);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2.0625rem;
+}
+
+.about-card-branding .about-card-branding-content p{
+    color: var(--terciary-text-color);
+    margin-bottom: 2rem;
+    margin-right: 0;
+}
+
+#button-read-more{
+    color: var(--primary-text-color);
+    background-color: var(--quinary-color);
+    padding: 0.8125rem 2.28125rem 0.875rem 2.34375rem;
+    font-weight: bold;
+}
+
+.about-card-website{
+    display: none;
+}
+
+/* ==========
+TESTIMONIALS
+========== */
+
+.testimonials{
+    padding: 4.625rem 0.9375rem 5rem 0.875rem;
+}
+
+#word-testimonials{
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.testimonials-start h2{
+    color: var(--primary-text-color);
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.375rem;
+}
+
+#testimonials-button-view-all{
+    color: var(--primary-text-color);
+    border-radius: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1042);
+    padding: 0.8125rem 2.28125rem 0.875rem 2.34375rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.card-Sara-Scholz{
+    background-color: var(--quaternary-color);
+    padding: 2rem 4.875rem 2.3125rem 1.875rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.20);
+}
+
+.card-Sara-Scholz img{
+    width: 14.875rem;
+    height: 30rem;
+}
+
+#quotation-marks{
+    margin-top: 3rem;
+    margin-bottom: 3.4375rem;
+    width: 3rem;
+    height: 2.25rem;
+}
+
+.card-Sara-Scholz p{
+    color: var(--terciary-text-color);
+}
+
+.card-Sara-Scholz h4{
+    color: var(--secundary-text-color);
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.1875rem;
+}
+
+.card-Sara-Scholz span{
+    color: var(--secundary-text-color);
+    line-height: 2rem;
+}
+
+.card-lisandro-matos{
+    display: none;
+}
+
+.card-adam-denisov{
+    display: none;
+}
+
+/* ==========
+CONTACT-US
+========== */
+
+.contact-us{
+    background-color: var(--quaternary-color);
+    padding: 4.625rem 0.9375rem 1.0625rem  0.875rem;
+}
+
+.contact-us p{
+    color: var(--quaternary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.contact-us h2{
+    color: var(--secundary-text-color);
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.375rem;
+}
+
+.contact-us-form #name{
+    border: 1px solid #DADADA;
+    border-radius: 0.3125rem;
+    padding: 0.5rem 8.3125rem 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact-us-form #email{
+    border: 1px solid #DADADA;
+    border-radius: 0.3125rem;
+    padding: 0.5rem 8.3125rem 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact-us-form #message{
+    border: 1px solid #DADADA;
+    border-radius: 0.3125rem;
+    padding: 0.5rem 8.3125rem 4.5rem 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact-us-form #submit{
+    border: none;
+    color: var(--primary-text-color);
+    background-color: var(--quinary-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    padding: 0.8125rem 3.28125rem 0.875rem 3.28125rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact-us img{
+    width: 100%;
+}
+
+/* ====================
+FOOTER
+==================== */
+
+.footer{
+    padding: 3.3125rem 0.9375rem 3.3125rem 0.875rem;
+}
+
+.footer-agency #logo{
+    margin-bottom: 1.0625rem;
+}
+
+.footer-agency #footer-agency-paragrath{
+    color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 2.5625rem;
+    margin-right: 4rem;
+}
+
+.footer-menu p{
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1.0625rem;
+}
+
+.footer-menu-lists{
+    display: flex;
+    gap: 7.125rem;
+}
+
+.footer-menu-lists ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-social p{
+    color: var(--primary-text-color);
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 2.9375rem;
+    margin-bottom: 1.375rem;
+}
+
+.footer-social .social-media{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.footer-terms{
+    text-align: center;
+    padding-top: 3.625rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.0995);
+}
+
+.footer-terms p{
+    color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.footer-terms ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.125rem;
+    margin-right: 1.0625rem;
+}
+
+@media (min-width: 450px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 13rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 13rem;
+    }
+
+    .contact-us-form #message{
+        padding-right: 13rem;
+    }
+}
+
+@media (min-width: 500px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 16rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 16rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 16rem;
+    }
+
+}
+
+@media (min-width: 550px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 19rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 19rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 19rem;
+    }
+
+}
+
+@media (min-width: 600px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 22rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 22rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 22rem;
+    }
+
+}
+
+@media (min-width: 650px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 25rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 25rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 25rem;
+    }
+
+}
+
+@media (min-width: 700px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 28rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 28rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 28rem;
+    }
+
+}
+
+@media (min-width: 750px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 31rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 31rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 31rem;
+    }
+
+}
+
+@media (min-width: 800px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT-US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 34rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 34rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 34rem;
+    }
+
+}
+
+@media (min-width: 1440px){
+
+    /* ====================
+    HEADER
+    ==================== */
+
+    header{
+        padding: 0;
+    }
+
+    .header{
+        padding: 1rem 8.4375rem;
+    }
+
+    .header-pages{
+        display: flex;
+    }
+
+    .header-pages ul{
+        display: flex;
+        gap: 3.4375rem;
+    }
+    
+    .header .social-media{
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    #menu-hamburguer{
+        display: none;
+    }
+
+    /* ==========
+    HERO
+    ========== */
+
+    .hero{
+        margin: 0;
+        display: flex;
+        padding: 4.3125rem 5.0625rem 3.0625rem 8.4375rem;
+        gap: 7.125rem;
+        align-items: center;
+    }
+
+    .hero h1{
+        margin-top: 1.3125rem;
+        margin-bottom: 3.0625rem;
+        font-size: 4.5rem;
+    }
+
+    .hero img{
+        margin: 0;
+    }
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    FEATURES
+    ========== */
+
+    .features-background{
+        padding: 3rem 8.4375rem 7rem 8.4375rem;
+    }
+
+    .features{
+        padding: 5.625rem 6.25rem 5.25rem 1.875rem;
+        display: flex;
+        gap: 3.25rem;
+    }
+
+    .features img{
+        margin: 0;
+    }
+
+    .features-content p{
+        margin-bottom: 1.1875rem;
+    }
+
+    .features-content h2{
+        font-size: 3.5rem;
+        margin-bottom: 2.1875rem;
+    }
+
+    .features-branding{
+        margin-bottom: 1rem;
+    }
+
+    .features-branding img{
+        margin: 0;
+    }
+    .features-branding-content p{
+        margin: 0;
+    }
+
+    .features-marketing{
+        margin-bottom: 1rem;
+    }
+
+    .features-marketing img{
+        margin: 0;
+    }
+
+    .features-marketing-content p{
+        margin: 0;
+    }
+
+    .features-SEO-solution img{
+        margin: 0;
+    }
+
+    .features-SEO-solution-content p{
+        margin: 0;
+    }
+
+    .just-do-it{
+        padding-left: 28.125rem;
+        padding-right: 28.0625rem;
+    }
+
+    .just-do-it h2{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    /* ==========
+    ABOUT
+    ========== */
+
+    .about{
+        padding: 4.625rem 6.4375rem 5.375rem 8.4375rem;
+    }
+
+    .about-start{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.1875rem;
+        margin-bottom: 3.1875rem;
+    }
+
+    .about-start h2{
+        font-size: 3.5rem;
+        margin: 0;
+        line-height: 4rem;
+    }
+
+    #about-button-view-all{
+        margin: 0;
+    }
+
+    .about-cards{
+        display: flex;
+        gap: 1.875rem;
+    }
+
+    .about-card-branding{
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1.875rem;
+    }
+
+    .about-card-branding img{
+        margin: 0;
+    }
+
+    .about-card-branding-content h3{
+        margin-right: 4.5rem;
+    }
+
+    .about-card-branding-content p{
+        margin-right: 3rem;
+    }
+
+    .about-card-website{
+        display: flex;
+        background-color: var(--quaternary-color);
+        padding: 2rem;
+        border-radius: 1.5rem;
+    }
+
+    .about-card-website-content{
+        background-image: url("../img/numbers.png");
+        border-radius: 1.5rem;
+    }
+
+    .about-card-website-content p{
+        margin: 1.625rem 13.9375rem 26.375rem 2rem;
+        font-size: 1.125rem;
+        color: var(--quaternary-text-color);
+        font-weight: bold;
+    }
+
+    /* ==========
+    TESTIMONIALS
+    ========== */
+
+    .testimonials{
+        padding: 5.25rem 8.4375rem 5.375rem 8.4375rem;
+    }
+
+    .testimonials-start{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.1875rem;
+        margin-bottom: 3.1875rem;
+    }
+
+    #testimonials-button-view-all{
+        margin: 0;
+    }
+
+    .testimonials-start h2{
+        margin: 0;
+        font-size: 3.5rem;
+    }
+
+    .testimonials-cards{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1.875rem;
+    }
+
+    .card-Sara-Scholz{
+        display: flex;
+        gap: 1.875rem;
+        padding: 2rem;
+    }
+
+    #quotation-marks{
+        margin: 0;
+        margin-bottom: 3.4375rem;
+    }
+
+    .card-lisandro-matos{
+        display: block;
+        background-color: var(--quaternary-color);
+        border-radius: 1.5rem;
+        padding: 2rem 2rem 2.5rem 2rem;
+    }
+
+    .card-lisandro-matos p{
+        color: var(--terciary-text-color);
+        margin-bottom: 1.875rem;
+    }
+
+    .about-lisandro-matos{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #autor{
+        color: var(--secundary-text-color);
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .about-lisandro-matos-content p{
+        margin: 0;
+        font-size: 0.875rem;
+    }
+
+    .card-adam-denisov{
+        display: block;
+        background-color: var(--quaternary-color);
+        border-radius: 1.5rem;
+        padding: 2rem 2rem 2.5rem 2rem;
+    }
+
+    .card-adam-denisov p{
+        color: var(--terciary-text-color);
+        margin-bottom: 1.875rem;
+    }
+
+    .about-adam-denisov{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #autor{
+        color: var(--secundary-text-color);
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .about-adam-denisov-content p{
+        margin: 0;
+        font-size: 0.875rem;
+    }
+
+    /* ==========
+    CONTACT US
+    ========== */
+
+    .contact-us{
+        padding: 5.9375rem 6.25rem 4.25rem 8.4375rem;
+        display: flex;
+        gap: 2.75rem;
+        align-items: center;
+    }
+
+    .contact-us-content h2{
+        font-size: 3.5rem;
+        margin-top: 1.1875rem;
+        margin-bottom: 2.1875rem;
+    }
+
+    .contact-us-form #name{
+        padding-right: 16.0625rem; 
+    }
+
+    .contact-us-form #email{
+        padding-right: 16.0625rem;
+    }
+
+    .contact-us-form #message{
+        padding-right: 16.0625rem;
+    }
+
+    .contact-us-form #submit{
+        margin-bottom: 0;
+    }
+
+    /* ====================
+    FOOTER
+    ==================== */
+
+    .footer{
+        padding: 12.625rem 8.4375rem 3.3125rem;
+    }
+
+    .footer-content{
+        display: flex;
+        gap: 14.375rem;
+        margin-bottom: 3.9375rem;
+    }
+
+    .footer-agency #footer-agency-paragrath{
+        margin: 0;
+        padding-right: 2rem;
+    }
+
+    .footer-social p{
+        margin-top: 0
+    }
+
+    .footer-terms{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2.625rem;
+    }
+
+    .footer-terms p{
+        margin: 0;
+    }
+
+    .footer-terms ul{
+        margin: 0;
+        gap: 3.25rem;
+    }
+
+}
+
+@media (min-width: 1920px){
+
+    /* ====================
+    MAIN
+    ==================== */
+
+    /* ==========
+    CONTACT US
+    ========== */
+
+    .contact-us-form #name{
+        padding-right: 26rem;
+    }
+
+    .contact-us-form #email{
+        padding-right: 26rem;
+    }
+
+    .contact-us-form #message{
+        display: block;
+        padding-right: 26rem;
+    }
+}
